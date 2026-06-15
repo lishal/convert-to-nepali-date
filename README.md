@@ -2,6 +2,16 @@
 
 Java library for converting English AD dates to Nepali Bikram Sambat dates.
 
+## Installation
+
+```xml
+<dependency>
+    <groupId>io.github.lishal</groupId>
+    <artifactId>convert-to-nepali-date</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
+
 ```java
 NepaliDate nepaliDate = ConvertToNepaliDate.convert("2026-06-15");
 
